@@ -1,0 +1,24 @@
+/* --- ERRORS --- */
+.error INPUT, .error TEXTAREA, .error SELECT {
+	border-width:2px;
+	border-style:solid;
+	border-color:#ED1C24;
+	background:#FFE6E7;
+	}
+.iferror {
+	margin:0;
+	display:none;
+	}
+.error .iferror {
+	display:inline;
+	color:#ED1C24;
+	}
+
+.hint { color:#888; }
+
+div.recaptcha_error {
+	color:#ED1C24;
+	margin-bottom: 10px;
+	border: 1px solid red;
+	padding: 5px;
+}

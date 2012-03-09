@@ -1,0 +1,261 @@
+@charset "UTF-8"
+
+body {
+	font-family: 'Lato', Verdana, sans-serif;
+	margin:0 auto;
+	padding-left: 55px;
+	padding-right: 30px;
+	padding-top: 35px;
+	max-width:960px;
+	/*background:#D9C1A7;*/
+	background: rgba(60, 130, 3, 0.1);
+	/*color: #A9A9A9;*/
+}
+
+header {
+	border-bottom: 1px solid #879E6F;
+}
+
+h1.huge {
+	font-family: 'Zapfino', Herculanum, 'Meddon', fantasy; 
+	color:#468008;
+	font-size:56px;
+	line-height:55px;
+	text-shadow: 8px 8px 8px #ddd;
+	text-decoration: none;
+	/*text-transform: lowercase;*/
+	letter-spacing: 0.010em;
+	word-spacing: 0.375em;
+	margin-left: -5px;
+	margin-bottom: 5px;
+	float:left;
+	/*min-width: 700px*/;
+	
+}
+
+h2.laurnamea {
+	font-family: 'Zapfino', Herculanum, 'Meddon', fantasy; 
+	color:#468008;
+	font-size:1.1em;
+	letter-spacing: 0.010em;
+	word-spacing: 0.375em;
+	float:right;
+}
+
+h3 {
+	font-family: 'Zapfino', Herculanum, 'Meddon', fantasy; 
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: none;
+	text-decoration: none;
+	text-transform: lowercase;
+	letter-spacing: 0.010em;
+	word-spacing: 0.375em;
+	color: #334F15;
+}
+
+a, a:visited, a:active {
+	color:#468008;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#65AB1A;
+	text-decoration:none;
+}
+
+a.current, a.current:hover {
+	color:#65AB1A;
+	text-decoration: none;
+}
+
+#maincontent {
+	margin-top: 65px;
+	/*border-top: 1px solid #334F15;*/
+	border-left: 3px solid #879E6F;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	padding-left: 15px;
+}
+
+#mainaside {
+	background-image: url('./img/alpha.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-right:15px;
+	margin-left:-85px;
+	float:left;
+	width:400px;
+	height: 570px;
+}
+
+div.splashDiv {
+	background-image: url('./img/alpha.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height:600px;
+	width:100%	;
+}
+
+div.splashDiv h3 {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border:1px solid #FFF;
+	text-align: center;
+	font-weight: bold;
+	margin-top:160px;
+	vertical-align: middle;
+	padding-bottom: 3px;
+	padding-top: 7px;
+	line-height: 100px;
+	width:100%;
+	background: rgba(255, 255, 255, 0.5);
+}
+	
+nav {
+	margin-bottom: 10px;
+	width:85%;
+	height:40px;
+	/*-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background:#000;
+	border:2px solid #666;*/
+	position: absolute;
+	min-width: 600px;
+	max-width:900px;
+	font-size:larger;
+}
+
+nav ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0 auto;
+	width:100%;
+}
+
+nav ul li {
+	float:left;
+	padding-right:20px;
+}
+
+nav ul li a {
+	margin-left:0px;
+	margin-right:15px;
+	text-align:center;
+	display:block;
+	line-height:40px;
+}
+
+div.subnav {
+	margin-top:150px;
+	padding-top:30px;
+	text-align: left;
+	padding-left: 255px;
+}
+
+div.subnav ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	text-align: left;
+	padding:0px;
+	margin:0px;
+}
+
+div.subnav ul li {
+	padding-bottom:8px;
+}
+
+
+div.clear {
+	clear:both;
+	height: 1px;
+}
+
+div.figure{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:6px;
+	border:5px solid #879E6F; /*#142830*/
+	float:right;
+	height:200px;
+	width: 450px;
+	margin-left:15px;
+	overflow:hidden;
+}
+
+img.leftimg {
+	float:left;
+	margin-right:5px;
+}
+
+img.rightimg {
+	float:right;
+	margin-left:5px;
+}
+
+
+div.mailcolumn {
+	float:left;
+	text-align:left;
+	width:280px;
+	padding: 5px;
+	margin-right:50px;
+}
+
+
+#mailcenter {
+	float:left;
+	padding: 5px;
+}
+
+
+#mailform input textinput {
+	margin-bottom: 5px;
+}
+
+.rounded {
+    border: 1px solid #666;
+    background:#C0C0C0;
+    -moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	line-height:25px;
+    padding-left:4px;
+    font-size:14px;
+}
+
+.roundbutton {
+    -moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	background:inherit;
+	line-height:25px;
+    font-size:14px;
+    color: #666;
+    float:right;
+    margin-bottom: 15px;
+}
+
+div.map {
+ margin: 0 auto;
+ padding-left:20px;
+}
+
+
+footer {
+	margin-top:40px;
+	font-size:x-small;
+}
+
+div.footerrow {
+   text-align:left; 
+   margin-bottom:10px;
+}
+
+div.footerright {
+	float:right; 
+	text-align:right;
+}
+
