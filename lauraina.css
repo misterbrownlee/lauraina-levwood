@@ -120,7 +120,7 @@ h1, h2, h3 {
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   letter-spacing: 0.0em;
 }
 
@@ -132,6 +132,7 @@ h3, h4 {
   font-size: 310%;
   text-shadow: none;
   letter-spacing: 0.010em;
+  text-transform: lowercase;
   /*word-spacing: 0.275em;
   word-spacing: -0.3em;
   4B4F34  #4F4E3F; /*#396306;*/ 
